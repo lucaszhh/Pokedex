@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 200px;
+  border-radius: 8px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 214, 214, 0.5) 0%, rgba(96, 82, 103, 0.5) 50.64%, rgba(50, 83, 45, 0.5) 81.27%, rgba(55, 55, 55, 0.5) 90.02%, rgba(0, 0, 0, 0.5) 100%), #000000;
+  border: 3px solid rgb(124, 255, 251);
+  box-shadow: 0px 0px 10px 8px rgba(99, 250, 255, 0.24);
+
+}
+
+
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PokemonList{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
